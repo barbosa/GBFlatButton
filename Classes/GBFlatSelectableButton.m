@@ -55,10 +55,8 @@
     UIControlState state;
     if (self.selected) {
         state = UIControlStateSelected;
-//        [self changeBackgroundColorToStateHighlighted];
     } else {
         state = UIControlStateNormal;
-//        [self changeBackgroundColorToStateNormal];
     }
     
     NSString *title = [self titleForState:state];

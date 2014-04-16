@@ -24,11 +24,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-//    GBFlatSelectableButton *blackButton = [[GBFlatSelectableButton alloc] initWithFrame:CGRectMake(10, 30, 150, 44)];
+
+    // Uncomment the following lines to add a programatically-created button
+//    GBFlatSelectableButton *blackButton = [[GBFlatSelectableButton alloc] initWithFrame:CGRectMake(0, 30, 150, 44)];
 //    blackButton.tintColor = [UIColor blackColor];
 //    [blackButton setTitle:@"Black"
 //                 forState:UIControlStateNormal];
+//    blackButton.center = CGPointMake(self.view.center.x, blackButton.center.y);
 //    [self.view addSubview:blackButton];
     
     _pinkButton.tintColor = [UIColor gb_pinkColor];
