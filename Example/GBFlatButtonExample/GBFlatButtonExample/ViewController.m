@@ -27,29 +27,29 @@
 
     // Uncomment the following lines to add a programatically-created button
 //    GBFlatSelectableButton *blackButton = [[GBFlatSelectableButton alloc] initWithFrame:CGRectMake(0, 30, 150, 44)];
-//    blackButton.tintColor = [UIColor blackColor];
+//    blackButton.buttonColor = [UIColor blackColor];
 //    [blackButton setTitle:@"Black"
 //                 forState:UIControlStateNormal];
 //    blackButton.center = CGPointMake(self.view.center.x, blackButton.center.y);
 //    [self.view addSubview:blackButton];
     
-    _pinkButton.tintColor = [UIColor gb_pinkColor];
+    _pinkButton.buttonColor = [UIColor gb_pinkColor];
     _pinkButton.layer.cornerRadius = 5.0f;
     
-    _yellowButton.tintColor = [UIColor gb_yellowColor];
+    _yellowButton.buttonColor = [UIColor gb_yellowColor];
     
-    _orangeButton.tintColor = [UIColor orangeColor];
+    _orangeButton.buttonColor = [UIColor orangeColor];
     _orangeButton.selected = YES;
     
-    _greenButton.tintColor = [UIColor gb_greenColor];
+    _greenButton.buttonColor = [UIColor gb_greenColor];
     
-    _blueButton.tintColor = [UIColor gb_blueColor];
+    _blueButton.buttonColor = [UIColor gb_blueColor];
     _blueButton.selected = YES;
     _blueButton.layer.cornerRadius = 8.0f;
     [_blueButton setTitle:@"Blue selected"
                  forState:UIControlStateSelected];
     
-    _purpleButton.tintColor = [UIColor gb_purpleColor];
+    _purpleButton.buttonColor = [UIColor gb_purpleColor];
     [_purpleButton setTitle:@"Selectable button"
                    forState:UIControlStateNormal];
     [_purpleButton setTitle:@"Yay! Button selected!"
