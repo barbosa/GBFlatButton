@@ -10,4 +10,11 @@
 
 @interface UIColor (GBFlatButton)
 
++ (UIColor *)gb_pinkColor;
++ (UIColor *)gb_yellowColor;
++ (UIColor *)gb_orangeColor;
++ (UIColor *)gb_greenColor;
++ (UIColor *)gb_blueColor;
++ (UIColor *)gb_purpleColor;
+
 @end
