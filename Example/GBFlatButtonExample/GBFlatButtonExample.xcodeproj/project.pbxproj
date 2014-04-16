@@ -23,6 +23,7 @@
 		15693D2F18FDD74B00AAC8BE /* GBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15693D2E18FDD74B00AAC8BE /* GBFlatButton.m */; };
 		15B30EFE18FEC7A300A45AD1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B30EFD18FEC7A300A45AD1 /* ViewController.xib */; };
 		15B30F0118FED1A400A45AD1 /* UIColor+GBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B30F0018FED1A400A45AD1 /* UIColor+GBFlatButton.m */; };
+		15FB146418FEF91700EFED7A /* GBFlatSelectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FB146318FEF91700EFED7A /* GBFlatSelectableButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		15B30EFD18FEC7A300A45AD1 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		15B30EFF18FED1A400A45AD1 /* UIColor+GBFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+GBFlatButton.h"; path = "../../../Classes/UIColor+GBFlatButton.h"; sourceTree = "<group>"; };
 		15B30F0018FED1A400A45AD1 /* UIColor+GBFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+GBFlatButton.m"; path = "../../../Classes/UIColor+GBFlatButton.m"; sourceTree = "<group>"; };
+		15FB146218FEF91700EFED7A /* GBFlatSelectableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBFlatSelectableButton.h; path = ../../../Classes/GBFlatSelectableButton.h; sourceTree = "<group>"; };
+		15FB146318FEF91700EFED7A /* GBFlatSelectableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBFlatSelectableButton.m; path = ../../../Classes/GBFlatSelectableButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 				15693D2E18FDD74B00AAC8BE /* GBFlatButton.m */,
 				15B30EFF18FED1A400A45AD1 /* UIColor+GBFlatButton.h */,
 				15B30F0018FED1A400A45AD1 /* UIColor+GBFlatButton.m */,
+				15FB146218FEF91700EFED7A /* GBFlatSelectableButton.h */,
+				15FB146318FEF91700EFED7A /* GBFlatSelectableButton.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 				15693D2F18FDD74B00AAC8BE /* GBFlatButton.m in Sources */,
 				15693D0618FDD0FB00AAC8BE /* AppDelegate.m in Sources */,
 				15693D0218FDD0FB00AAC8BE /* main.m in Sources */,
+				15FB146418FEF91700EFED7A /* GBFlatSelectableButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
