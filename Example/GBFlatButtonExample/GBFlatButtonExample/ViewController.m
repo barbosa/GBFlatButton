@@ -11,12 +11,21 @@
 #import "UIColor+GBFlatButton.h"
 
 @interface ViewController ()
+
 @property (nonatomic, weak) IBOutlet GBFlatButton *pinkButton;
 @property (nonatomic, weak) IBOutlet GBFlatButton *yellowButton;
 @property (nonatomic, weak) IBOutlet GBFlatButton *orangeButton;
 @property (nonatomic, weak) IBOutlet GBFlatButton *greenButton;
-@property (nonatomic, weak) IBOutlet GBFlatSelectableButton *blueButton;
-@property (nonatomic, weak) IBOutlet GBFlatSelectableButton *purpleButton;
+@property (nonatomic, weak) IBOutlet GBFlatButton *blueButton;
+@property (nonatomic, weak) IBOutlet GBFlatButton *purpleButton;
+
+@property (nonatomic, weak) IBOutlet GBFlatButton *pinkSelectedButton;
+@property (nonatomic, weak) IBOutlet GBFlatButton *yellowSelectedButton;
+@property (nonatomic, weak) IBOutlet GBFlatButton *orangeSelectedButton;
+@property (nonatomic, weak) IBOutlet GBFlatButton *greenSelectedButton;
+@property (nonatomic, weak) IBOutlet GBFlatButton *blueSelectedButton;
+@property (nonatomic, weak) IBOutlet GBFlatButton *purpleSelectedButton;
+
 @end
 
 @implementation ViewController
@@ -34,25 +43,31 @@
 //    [self.view addSubview:blackButton];
     
     _pinkButton.buttonColor = [UIColor gb_pinkColor];
-    _pinkButton.layer.cornerRadius = 5.0f;
+    _pinkSelectedButton.buttonColor = _pinkButton.buttonColor;
+    _pinkSelectedButton.selected = YES;
     
     _yellowButton.buttonColor = [UIColor gb_yellowColor];
+    _yellowSelectedButton.buttonColor = _yellowButton.buttonColor;
+    _yellowSelectedButton.selected = YES;
     
     _orangeButton.buttonColor = [UIColor orangeColor];
-    _orangeButton.selected = YES;
+    _orangeSelectedButton.buttonColor = _orangeButton.buttonColor;
+    _orangeSelectedButton.selected = YES;
     
     _greenButton.buttonColor = [UIColor gb_greenColor];
+    _greenSelectedButton.buttonColor = _greenButton.buttonColor;
+    _greenSelectedButton.selected = YES;
     
     _blueButton.buttonColor = [UIColor gb_blueColor];
-    _blueButton.selected = YES;
-    _blueButton.layer.cornerRadius = 8.0f;
-    [_blueButton setTitle:@"Blue selected"
-                 forState:UIControlStateSelected];
+    _blueSelectedButton.buttonColor = _blueButton.buttonColor;
+    _blueSelectedButton.selected = YES;
     
     _purpleButton.buttonColor = [UIColor gb_purpleColor];
-    [_purpleButton setTitle:@"Selectable button"
+    _purpleSelectedButton.buttonColor = _purpleButton.buttonColor;
+    _purpleSelectedButton.selected = YES;
+    [_purpleButton setTitle:@"Purple"
                    forState:UIControlStateNormal];
-    [_purpleButton setTitle:@"Yay! Button selected!"
+    [_purpleButton setTitle:@"Selected!"
                    forState:UIControlStateSelected];
 }
 

@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
             <connections>
                 <outlet property="blueButton" destination="cmR-c6-Vkk" id="Crc-wo-WGS"/>
+                <outlet property="blueSelectedButton" destination="p5T-gl-Skr" id="Av4-lo-xVl"/>
                 <outlet property="greenButton" destination="e1b-vP-oUY" id="qBf-q7-R7u"/>
+                <outlet property="greenSelectedButton" destination="fkP-yY-UNg" id="Grr-1A-6r4"/>
                 <outlet property="orangeButton" destination="nek-uE-cBf" id="OxD-Sb-XI5"/>
+                <outlet property="orangeSelectedButton" destination="pNV-IN-gkv" id="JQd-9Y-sl3"/>
                 <outlet property="pinkButton" destination="soT-8H-50i" id="poY-Be-fDG"/>
+                <outlet property="pinkSelectedButton" destination="KGh-G7-ZaO" id="d0u-nb-KFl"/>
                 <outlet property="purpleButton" destination="fkx-mM-HRd" id="9t2-Bv-ZA5"/>
+                <outlet property="purpleSelectedButton" destination="bPs-vk-3NE" id="jyZ-hx-gRt"/>
                 <outlet property="view" destination="iN0-l3-epB" id="WRj-WA-HmP"/>
                 <outlet property="yellowButton" destination="Avi-bf-EFg" id="P4U-2W-Pup"/>
+                <outlet property="yellowSelectedButton" destination="bIg-3O-RW4" id="Neo-WW-JWO"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -21,80 +28,139 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soT-8H-50i" customClass="GBFlatButton">
-                    <rect key="frame" x="142" y="94" width="36" height="40"/>
+                    <rect key="frame" x="60" y="94" width="36" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="40" id="bLj-26-WfY"/>
-                    </constraints>
                     <state key="normal" title="Pink">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avi-bf-EFg" customClass="GBFlatButton">
-                    <rect key="frame" x="134" y="164" width="52" height="40"/>
+                    <rect key="frame" x="52" y="164" width="52" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="40" id="9Rt-n1-ZYa"/>
-                    </constraints>
                     <state key="normal" title="Yellow">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nek-uE-cBf" customClass="GBFlatButton">
-                    <rect key="frame" x="130" y="234" width="60" height="40"/>
+                    <rect key="frame" x="48" y="234" width="60" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="40" id="mZU-0H-bey"/>
-                    </constraints>
                     <state key="normal" title="Orange">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1b-vP-oUY" customClass="GBFlatButton">
-                    <rect key="frame" x="136" y="294" width="49" height="40"/>
+                    <rect key="frame" x="54" y="294" width="49" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Green">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmR-c6-Vkk" customClass="GBFlatButton">
+                    <rect key="frame" x="60" y="364" width="36" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Blue">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkx-mM-HRd" customClass="GBFlatButton">
+                    <rect key="frame" x="52" y="434" width="53" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Purple">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGh-G7-ZaO" customClass="GBFlatButton">
+                    <rect key="frame" x="222" y="94" width="36" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="3qX-r3-Q0p"/>
+                        <constraint firstAttribute="height" constant="40" id="rYZ-cn-nV3"/>
+                    </constraints>
+                    <state key="normal" title="Pink">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIg-3O-RW4" customClass="GBFlatButton">
+                    <rect key="frame" x="214" y="164" width="52" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="4RG-QO-9gp"/>
+                    </constraints>
+                    <state key="normal" title="Yellow">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNV-IN-gkv" customClass="GBFlatButton">
+                    <rect key="frame" x="210" y="234" width="60" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="xVt-Xb-P4W"/>
+                    </constraints>
+                    <state key="normal" title="Orange">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkP-yY-UNg" customClass="GBFlatButton">
+                    <rect key="frame" x="216" y="294" width="49" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="57L-oT-fGr"/>
                     </constraints>
                     <state key="normal" title="Green">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmR-c6-Vkk" customClass="GBFlatSelectableButton">
-                    <rect key="frame" x="142" y="364" width="36" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5T-gl-Skr" customClass="GBFlatButton">
+                    <rect key="frame" x="222" y="364" width="36" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="SB0-bz-Iax"/>
+                        <constraint firstAttribute="height" constant="40" id="lwu-rU-dc8"/>
                     </constraints>
                     <state key="normal" title="Blue">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkx-mM-HRd" customClass="GBFlatSelectableButton">
-                    <rect key="frame" x="134" y="434" width="53" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-vk-3NE" customClass="GBFlatButton">
+                    <rect key="frame" x="214" y="434" width="53" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="sYf-3l-9Kl"/>
+                        <constraint firstAttribute="height" constant="40" id="5hI-9v-Aq0"/>
                     </constraints>
                     <state key="normal" title="Purple">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerX" secondItem="soT-8H-50i" secondAttribute="centerX" id="LWm-Xt-FWT"/>
-                <constraint firstItem="cmR-c6-Vkk" firstAttribute="top" secondItem="e1b-vP-oUY" secondAttribute="bottom" constant="30" id="PkA-q4-BX0"/>
-                <constraint firstAttribute="centerX" secondItem="nek-uE-cBf" secondAttribute="centerX" id="RMk-sv-KeZ"/>
-                <constraint firstItem="Avi-bf-EFg" firstAttribute="top" secondItem="soT-8H-50i" secondAttribute="bottom" constant="30" id="T5X-q2-Zhe"/>
-                <constraint firstAttribute="centerY" secondItem="e1b-vP-oUY" secondAttribute="centerY" constant="-30" id="UvZ-0p-zCe"/>
-                <constraint firstItem="nek-uE-cBf" firstAttribute="top" secondItem="Avi-bf-EFg" secondAttribute="bottom" constant="30" id="ePx-fy-6k4"/>
-                <constraint firstAttribute="centerX" secondItem="cmR-c6-Vkk" secondAttribute="centerX" id="j7x-nd-Bz3"/>
-                <constraint firstAttribute="centerX" secondItem="fkx-mM-HRd" secondAttribute="centerX" id="lnR-yZ-FRM"/>
-                <constraint firstAttribute="centerX" secondItem="Avi-bf-EFg" secondAttribute="centerX" id="nZp-GZ-oqe"/>
-                <constraint firstItem="fkx-mM-HRd" firstAttribute="top" secondItem="cmR-c6-Vkk" secondAttribute="bottom" constant="30" id="qC7-gn-xmd"/>
-                <constraint firstAttribute="centerY" secondItem="nek-uE-cBf" secondAttribute="centerY" constant="30" id="rXM-tK-ldc"/>
-                <constraint firstAttribute="centerX" secondItem="e1b-vP-oUY" secondAttribute="centerX" id="xZj-8m-O1e"/>
+                <constraint firstAttribute="trailing" secondItem="pNV-IN-gkv" secondAttribute="trailing" constant="50" id="53T-HD-4XQ"/>
+                <constraint firstItem="soT-8H-50i" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="94" id="5S6-57-vLJ"/>
+                <constraint firstItem="p5T-gl-Skr" firstAttribute="top" secondItem="fkP-yY-UNg" secondAttribute="bottom" constant="30" id="8rk-YB-Don"/>
+                <constraint firstItem="fkx-mM-HRd" firstAttribute="leading" secondItem="Avi-bf-EFg" secondAttribute="leading" id="9ME-M0-hiw"/>
+                <constraint firstItem="Avi-bf-EFg" firstAttribute="top" secondItem="bIg-3O-RW4" secondAttribute="top" id="BY0-4y-oV3"/>
+                <constraint firstItem="Avi-bf-EFg" firstAttribute="centerX" secondItem="soT-8H-50i" secondAttribute="centerX" id="ICF-01-cQi"/>
+                <constraint firstItem="Avi-bf-EFg" firstAttribute="bottom" secondItem="bIg-3O-RW4" secondAttribute="bottom" id="IiE-iq-IH1"/>
+                <constraint firstItem="nek-uE-cBf" firstAttribute="bottom" secondItem="pNV-IN-gkv" secondAttribute="bottom" id="O7X-Mx-cbb"/>
+                <constraint firstItem="nek-uE-cBf" firstAttribute="centerX" secondItem="e1b-vP-oUY" secondAttribute="centerX" id="PyB-7c-zQQ"/>
+                <constraint firstItem="fkx-mM-HRd" firstAttribute="top" secondItem="bPs-vk-3NE" secondAttribute="top" id="QS9-RP-FKL"/>
+                <constraint firstItem="bIg-3O-RW4" firstAttribute="centerX" secondItem="KGh-G7-ZaO" secondAttribute="centerX" id="UHU-iF-NvW"/>
+                <constraint firstItem="nek-uE-cBf" firstAttribute="centerX" secondItem="Avi-bf-EFg" secondAttribute="centerX" id="YPl-wB-naw"/>
+                <constraint firstItem="fkP-yY-UNg" firstAttribute="centerX" secondItem="pNV-IN-gkv" secondAttribute="centerX" id="Za0-8t-6Ne"/>
+                <constraint firstItem="bIg-3O-RW4" firstAttribute="leading" secondItem="bPs-vk-3NE" secondAttribute="leading" id="aou-p5-r3M"/>
+                <constraint firstItem="e1b-vP-oUY" firstAttribute="bottom" secondItem="fkP-yY-UNg" secondAttribute="bottom" id="bG5-ti-eMC"/>
+                <constraint firstItem="cmR-c6-Vkk" firstAttribute="top" secondItem="p5T-gl-Skr" secondAttribute="top" id="bdX-jg-k0T"/>
+                <constraint firstItem="cmR-c6-Vkk" firstAttribute="bottom" secondItem="p5T-gl-Skr" secondAttribute="bottom" id="cuf-KU-pAn"/>
+                <constraint firstItem="soT-8H-50i" firstAttribute="top" secondItem="KGh-G7-ZaO" secondAttribute="top" id="eTT-y5-gqc"/>
+                <constraint firstItem="nek-uE-cBf" firstAttribute="top" secondItem="pNV-IN-gkv" secondAttribute="top" id="fbT-uo-Cyh"/>
+                <constraint firstItem="soT-8H-50i" firstAttribute="bottom" secondItem="KGh-G7-ZaO" secondAttribute="bottom" id="gVu-sm-win"/>
+                <constraint firstItem="e1b-vP-oUY" firstAttribute="top" secondItem="nek-uE-cBf" secondAttribute="bottom" constant="20" id="jtd-kF-4i4"/>
+                <constraint firstItem="nek-uE-cBf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="48" id="kRA-fr-v2m"/>
+                <constraint firstItem="p5T-gl-Skr" firstAttribute="leading" secondItem="KGh-G7-ZaO" secondAttribute="leading" id="lPm-tn-vcl"/>
+                <constraint firstItem="bIg-3O-RW4" firstAttribute="top" secondItem="KGh-G7-ZaO" secondAttribute="bottom" constant="30" id="qPB-8A-Sho"/>
+                <constraint firstItem="soT-8H-50i" firstAttribute="leading" secondItem="cmR-c6-Vkk" secondAttribute="leading" id="skb-W9-A2M"/>
+                <constraint firstItem="bPs-vk-3NE" firstAttribute="top" secondItem="p5T-gl-Skr" secondAttribute="bottom" constant="30" id="tiK-PQ-oaW"/>
+                <constraint firstItem="pNV-IN-gkv" firstAttribute="centerX" secondItem="bIg-3O-RW4" secondAttribute="centerX" id="tpZ-tB-sdd"/>
+                <constraint firstItem="fkx-mM-HRd" firstAttribute="bottom" secondItem="bPs-vk-3NE" secondAttribute="bottom" id="w7q-pq-kcT"/>
+                <constraint firstItem="pNV-IN-gkv" firstAttribute="top" secondItem="bIg-3O-RW4" secondAttribute="bottom" constant="30" id="ysE-C6-51S"/>
+                <constraint firstItem="e1b-vP-oUY" firstAttribute="top" secondItem="fkP-yY-UNg" secondAttribute="top" id="yxj-gh-fkU"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
