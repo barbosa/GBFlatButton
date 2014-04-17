@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "A short description of GBFlatButton."
   s.homepage         = "http://github.com/barbosa/GBFlatButton"
-  s.screenshots      = "www.example.com/screenshots_1"
+  s.screenshots      = "https://raw.githubusercontent.com/barbosa/GBFlatButton/master/screenshot.png"
   s.license          = 'MIT'
   s.author           = "Gustavo Barbosa"
   s.source           = { :git => "http://github.com/barbosa/GBFlatButton.git", :tag => s.version.to_s }
