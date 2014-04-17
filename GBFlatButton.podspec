@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "GBFlatButton"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of GBFlatButton."
+  s.version          = "1.0.0"
+  s.summary          = "A flat and light implementation of UIButton for iOS."
   s.homepage         = "http://github.com/barbosa/GBFlatButton"
   s.screenshots      = "https://raw.githubusercontent.com/barbosa/GBFlatButton/master/screenshot.png"
   s.license          = 'MIT'
