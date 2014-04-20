@@ -15,6 +15,10 @@ pod "GBFlatButton"
 
 But if you don't use CocoaPods, you can just copy the `Classes` folder into your project.
 
+## Screenshots
+
+![Buttons example](https://raw.githubusercontent.com/barbosa/GBFlatButton/master/screenshot.png)
+
 ## Usage
 
 To create a flat button programmatically, just instantiate a new `GBFlatButton` with a frame and add it to some view, for example:
@@ -41,10 +45,6 @@ But you can also create a `GBFlatButton` via Interface Builder. To do it, drag a
 }
 @end
 ```
-
-## Screenshots
-
-![Buttons example](https://raw.githubusercontent.com/barbosa/GBFlatButton/master/screenshot.png)
 
 ## Author
 
