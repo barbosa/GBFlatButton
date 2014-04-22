@@ -17,7 +17,7 @@ But if you don't use CocoaPods, you can just copy the `Classes` folder into your
 
 ## Screenshots
 
-![Buttons example](https://raw.githubusercontent.com/barbosa/GBFlatButton/master/screenshot.png)
+![Buttons example](https://raw.github.com/barbosa/GBFlatButton/master/screenshot.png)
 
 ## Usage
 
