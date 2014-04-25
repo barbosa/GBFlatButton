@@ -1,8 +1,7 @@
 # GBFlatButton
-<!---
+
 [![Version](http://cocoapod-badges.herokuapp.com/v/GBFlatButton/badge.png)](http://cocoadocs.org/docsets/GBFlatButton)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/GBFlatButton/badge.png)](http://cocoadocs.org/docsets/GBFlatButton)
--->
 
 ## Installation
 
