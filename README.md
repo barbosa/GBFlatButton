@@ -1,8 +1,7 @@
 # GBFlatButton
-<!---
+
 [![Version](http://cocoapod-badges.herokuapp.com/v/GBFlatButton/badge.png)](http://cocoadocs.org/docsets/GBFlatButton)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/GBFlatButton/badge.png)](http://cocoadocs.org/docsets/GBFlatButton)
--->
 
 ## Installation
 
@@ -14,6 +13,10 @@ pod "GBFlatButton"
 ```
 
 But if you don't use CocoaPods, you can just copy the `Classes` folder into your project.
+
+## Screenshots
+
+![Buttons example](https://raw.github.com/barbosa/GBFlatButton/master/screenshot.png)
 
 ## Usage
 
@@ -41,10 +44,6 @@ But you can also create a `GBFlatButton` via Interface Builder. To do it, drag a
 }
 @end
 ```
-
-## Screenshots
-
-![Buttons example](https://raw.githubusercontent.com/barbosa/GBFlatButton/master/screenshot.png)
 
 ## Author
 
