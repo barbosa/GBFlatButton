@@ -24,7 +24,7 @@ To create a flat button programmatically, just instantiate a new `GBFlatButton` 
 
 ```objc
 GBFlatButton *button = [[GBFlatButton alloc] initWithFrame:CGRectMake(originX, originY, width, height)];
-button.buttonColor = [UIColor orangeColor]; // or import UIColor+GBFlatButton.h and use our cool colors
+button.tintColor = [UIColor orangeColor]; // or import UIColor+GBFlatButton.h and use our cool colors
 [button setTitle:@"An orange button" forState:UIControlStateNormal];
 [self.view addSubview:button];
 ```
@@ -40,10 +40,14 @@ But you can also create a `GBFlatButton` via Interface Builder. To do it, drag a
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _flatButton.buttonColor = [UIColor orangeColor];
+    _flatButton.tintColor = [UIColor orangeColor];
 }
 @end
 ```
+
+### Note
+
+For iOS > 7.0, you can set the value of tintColor directly via Interface Builder.
 
 ## Author
 
