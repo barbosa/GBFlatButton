@@ -58,25 +58,18 @@ static CGFloat const kHorizontalPadding = 14.0f;
     [super setSelected:selected];
     
     if (selected)
-        self.backgroundColor = self.buttonColor;
+        self.backgroundColor = self.tintColor;
     else
         self.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)drawRect:(CGRect)rect
 {
-    self.layer.borderColor = self.buttonColor.CGColor;
-    [self setTitleColor:self.buttonColor
+    self.layer.borderColor = self.tintColor.CGColor;
+    [self setTitleColor:self.tintColor
                forState:UIControlStateNormal];
     [self setTitleColor:[UIColor whiteColor]
                forState:UIControlStateSelected];
-}
-
-#pragma mark - Acessors
-
-- (UIColor *)buttonColor
-{
-    return _buttonColor ?: self.tintColor;
 }
 
 @end

@@ -10,6 +10,4 @@
 
 @interface GBFlatButton : UIButton
 
-@property (nonatomic, strong) UIColor *buttonColor;
-
 @end
