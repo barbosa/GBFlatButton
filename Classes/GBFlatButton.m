@@ -12,6 +12,9 @@
 static CGFloat const kHorizontalPadding = 14.0f;
 
 @implementation GBFlatButton
+{
+    UIColor *buttonColor;
+}
 
 #pragma mark - Constructors
 
@@ -70,6 +73,17 @@ static CGFloat const kHorizontalPadding = 14.0f;
                forState:UIControlStateNormal];
     [self setTitleColor:[UIColor whiteColor]
                forState:UIControlStateSelected];
+}
+
+- (void)setTintColor:(UIColor *)tintColor
+{
+    [super setTintColor:tintColor];
+    buttonColor = tintColor;
+}
+
+- (UIColor *)tintColor
+{
+    return buttonColor ?: [super tintColor];
 }
 
 @end
