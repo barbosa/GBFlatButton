@@ -20,10 +20,12 @@
 		15693D1918FDD0FB00AAC8BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15693D1718FDD0FB00AAC8BE /* InfoPlist.strings */; };
 		15693D1B18FDD0FB00AAC8BE /* GBFlatButtonExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15693D1A18FDD0FB00AAC8BE /* GBFlatButtonExampleTests.m */; };
 		15693D2B18FDD6DA00AAC8BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15693D2A18FDD6DA00AAC8BE /* ViewController.m */; };
-		15693D2F18FDD74B00AAC8BE /* GBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15693D2E18FDD74B00AAC8BE /* GBFlatButton.m */; };
+		1594485B194278520097E1A4 /* GBFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1594485A194278520097E1A4 /* GBFlatButton.swift */; };
+		1594485D19427D1B0097E1A4 /* SwiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1594485C19427D1B0097E1A4 /* SwiftViewController.xib */; };
 		15B30EFE18FEC7A300A45AD1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B30EFD18FEC7A300A45AD1 /* ViewController.xib */; };
-		15B30F0118FED1A400A45AD1 /* UIColor+GBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B30F0018FED1A400A45AD1 /* UIColor+GBFlatButton.m */; };
-		15FB146418FEF91700EFED7A /* GBFlatSelectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FB146318FEF91700EFED7A /* GBFlatSelectableButton.m */; };
+		15BA1D1B194277C400E4DDE0 /* GBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA1D15194277C400E4DDE0 /* GBFlatButton.m */; };
+		15BA1D1C194277C400E4DDE0 /* GBFlatSelectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA1D17194277C400E4DDE0 /* GBFlatSelectableButton.m */; };
+		15BA1D1D194277C400E4DDE0 /* UIColor+GBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA1D19194277C400E4DDE0 /* UIColor+GBFlatButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +57,15 @@
 		15693D1A18FDD0FB00AAC8BE /* GBFlatButtonExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBFlatButtonExampleTests.m; sourceTree = "<group>"; };
 		15693D2918FDD6D900AAC8BE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		15693D2A18FDD6DA00AAC8BE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		15693D2D18FDD74B00AAC8BE /* GBFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBFlatButton.h; path = ../../../Classes/GBFlatButton.h; sourceTree = "<group>"; };
-		15693D2E18FDD74B00AAC8BE /* GBFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBFlatButton.m; path = ../../../Classes/GBFlatButton.m; sourceTree = "<group>"; };
+		1594485A194278520097E1A4 /* GBFlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBFlatButton.swift; sourceTree = "<group>"; };
+		1594485C19427D1B0097E1A4 /* SwiftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftViewController.xib; sourceTree = "<group>"; };
 		15B30EFD18FEC7A300A45AD1 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		15B30EFF18FED1A400A45AD1 /* UIColor+GBFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+GBFlatButton.h"; path = "../../../Classes/UIColor+GBFlatButton.h"; sourceTree = "<group>"; };
-		15B30F0018FED1A400A45AD1 /* UIColor+GBFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+GBFlatButton.m"; path = "../../../Classes/UIColor+GBFlatButton.m"; sourceTree = "<group>"; };
-		15FB146218FEF91700EFED7A /* GBFlatSelectableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBFlatSelectableButton.h; path = ../../../Classes/GBFlatSelectableButton.h; sourceTree = "<group>"; };
-		15FB146318FEF91700EFED7A /* GBFlatSelectableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBFlatSelectableButton.m; path = ../../../Classes/GBFlatSelectableButton.m; sourceTree = "<group>"; };
+		15BA1D14194277C400E4DDE0 /* GBFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBFlatButton.h; sourceTree = "<group>"; };
+		15BA1D15194277C400E4DDE0 /* GBFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBFlatButton.m; sourceTree = "<group>"; };
+		15BA1D16194277C400E4DDE0 /* GBFlatSelectableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBFlatSelectableButton.h; sourceTree = "<group>"; };
+		15BA1D17194277C400E4DDE0 /* GBFlatSelectableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBFlatSelectableButton.m; sourceTree = "<group>"; };
+		15BA1D18194277C400E4DDE0 /* UIColor+GBFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GBFlatButton.h"; sourceTree = "<group>"; };
+		15BA1D19194277C400E4DDE0 /* UIColor+GBFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GBFlatButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 				15693D2918FDD6D900AAC8BE /* ViewController.h */,
 				15693D2A18FDD6DA00AAC8BE /* ViewController.m */,
 				15B30EFD18FEC7A300A45AD1 /* ViewController.xib */,
+				1594485C19427D1B0097E1A4 /* SwiftViewController.xib */,
 			);
 			path = GBFlatButtonExample;
 			sourceTree = "<group>";
@@ -165,14 +170,33 @@
 		15B30F0218FED1B000A45AD1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				15693D2D18FDD74B00AAC8BE /* GBFlatButton.h */,
-				15693D2E18FDD74B00AAC8BE /* GBFlatButton.m */,
-				15B30EFF18FED1A400A45AD1 /* UIColor+GBFlatButton.h */,
-				15B30F0018FED1A400A45AD1 /* UIColor+GBFlatButton.m */,
-				15FB146218FEF91700EFED7A /* GBFlatSelectableButton.h */,
-				15FB146318FEF91700EFED7A /* GBFlatSelectableButton.m */,
+				15BA1D13194277C400E4DDE0 /* objc */,
+				15BA1D1A194277C400E4DDE0 /* swift */,
 			);
 			name = Source;
+			sourceTree = "<group>";
+		};
+		15BA1D13194277C400E4DDE0 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				15BA1D14194277C400E4DDE0 /* GBFlatButton.h */,
+				15BA1D15194277C400E4DDE0 /* GBFlatButton.m */,
+				15BA1D16194277C400E4DDE0 /* GBFlatSelectableButton.h */,
+				15BA1D17194277C400E4DDE0 /* GBFlatSelectableButton.m */,
+				15BA1D18194277C400E4DDE0 /* UIColor+GBFlatButton.h */,
+				15BA1D19194277C400E4DDE0 /* UIColor+GBFlatButton.m */,
+			);
+			name = objc;
+			path = ../../../Classes/objc;
+			sourceTree = "<group>";
+		};
+		15BA1D1A194277C400E4DDE0 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				1594485A194278520097E1A4 /* GBFlatButton.swift */,
+			);
+			name = swift;
+			path = ../../../Classes/swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1594485D19427D1B0097E1A4 /* SwiftViewController.xib in Resources */,
 				15693D0018FDD0FB00AAC8BE /* InfoPlist.strings in Resources */,
 				15B30EFE18FEC7A300A45AD1 /* ViewController.xib in Resources */,
 				15693D0818FDD0FB00AAC8BE /* Images.xcassets in Resources */,
@@ -271,12 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15B30F0118FED1A400A45AD1 /* UIColor+GBFlatButton.m in Sources */,
 				15693D2B18FDD6DA00AAC8BE /* ViewController.m in Sources */,
-				15693D2F18FDD74B00AAC8BE /* GBFlatButton.m in Sources */,
+				15BA1D1B194277C400E4DDE0 /* GBFlatButton.m in Sources */,
+				1594485B194278520097E1A4 /* GBFlatButton.swift in Sources */,
 				15693D0618FDD0FB00AAC8BE /* AppDelegate.m in Sources */,
+				15BA1D1D194277C400E4DDE0 /* UIColor+GBFlatButton.m in Sources */,
+				15BA1D1C194277C400E4DDE0 /* GBFlatSelectableButton.m in Sources */,
 				15693D0218FDD0FB00AAC8BE /* main.m in Sources */,
-				15FB146418FEF91700EFED7A /* GBFlatSelectableButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,11 +419,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GBFlatButtonExample/GBFlatButtonExample-Prefix.pch";
 				INFOPLIST_FILE = "GBFlatButtonExample/GBFlatButtonExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,10 +436,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GBFlatButtonExample/GBFlatButtonExample-Prefix.pch";
 				INFOPLIST_FILE = "GBFlatButtonExample/GBFlatButtonExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
