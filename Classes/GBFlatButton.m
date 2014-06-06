@@ -53,7 +53,7 @@ static CGFloat const kHorizontalPadding = 14.0f;
     self.contentEdgeInsets = containsEdgeInsets ? self.contentEdgeInsets : UIEdgeInsetsMake(0, kHorizontalPadding, 0, kHorizontalPadding);
     self.layer.borderWidth = self.layer.borderWidth ?: 1.0f;
     self.layer.cornerRadius = self.layer.cornerRadius ?: CGRectGetHeight(self.frame) / 2.0f;
-    self.clipsToBounds = YES;
+    self.layer.masksToBounds = YES;
 }
 
 - (void)setSelected:(BOOL)selected
