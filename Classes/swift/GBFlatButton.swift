@@ -45,7 +45,7 @@ class GBFlatButton : UIButton {
             layer.cornerRadius = frame.size.height / 2.0
         }
 
-//        layer.masksToBounds = true
+        layer.masksToBounds = true
     }
     
     override var selected: Bool {

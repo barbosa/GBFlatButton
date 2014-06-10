@@ -13,6 +13,8 @@
 		15C7A517194751470031491D /* GBFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7A516194751470031491D /* GBFlatButton.swift */; };
 		15C7A51A194751740031491D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7A518194751740031491D /* ViewController.swift */; };
 		15C7A51B194751740031491D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C7A519194751740031491D /* ViewController.xib */; };
+		15C7A51D1947B5260031491D /* GBFlatSelectableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7A51C1947B5260031491D /* GBFlatSelectableButton.swift */; };
+		15C7A51F1947B78D0031491D /* GBFlatButtonColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7A51E1947B78D0031491D /* GBFlatButtonColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		15C7A516194751470031491D /* GBFlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GBFlatButton.swift; path = ../../../Classes/swift/GBFlatButton.swift; sourceTree = "<group>"; };
 		15C7A518194751740031491D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15C7A519194751740031491D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		15C7A51C1947B5260031491D /* GBFlatSelectableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GBFlatSelectableButton.swift; path = ../../../Classes/swift/GBFlatSelectableButton.swift; sourceTree = "<group>"; };
+		15C7A51E1947B78D0031491D /* GBFlatButtonColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GBFlatButtonColorExtensions.swift; path = ../../../Classes/swift/GBFlatButtonColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				15C7A516194751470031491D /* GBFlatButton.swift */,
+				15C7A51C1947B5260031491D /* GBFlatSelectableButton.swift */,
+				15C7A51E1947B78D0031491D /* GBFlatButtonColorExtensions.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -218,9 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C7A51F1947B78D0031491D /* GBFlatButtonColorExtensions.swift in Sources */,
 				15C7A51A194751740031491D /* ViewController.swift in Sources */,
 				15C7A4FE1947511A0031491D /* AppDelegate.swift in Sources */,
 				15C7A517194751470031491D /* GBFlatButton.swift in Sources */,
+				15C7A51D1947B5260031491D /* GBFlatSelectableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
