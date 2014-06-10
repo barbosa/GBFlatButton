@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15C7A4FE1947511A0031491D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7A4FD1947511A0031491D /* AppDelegate.swift */; };
+		15C7A5001947511A0031491D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C7A4FF1947511A0031491D /* Images.xcassets */; };
+		15C7A50C1947511A0031491D /* GBFlatButtonSwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7A50B1947511A0031491D /* GBFlatButtonSwiftExampleTests.swift */; };
+		15C7A517194751470031491D /* GBFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7A516194751470031491D /* GBFlatButton.swift */; };
+		15C7A51A194751740031491D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7A518194751740031491D /* ViewController.swift */; };
+		15C7A51B194751740031491D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C7A519194751740031491D /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15C7A5061947511A0031491D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C7A4F01947511A0031491D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C7A4F71947511A0031491D;
+			remoteInfo = GBFlatButtonSwiftExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C7A4F81947511A0031491D /* GBFlatButtonSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBFlatButtonSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C7A4FC1947511A0031491D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C7A4FD1947511A0031491D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15C7A4FF1947511A0031491D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15C7A5051947511A0031491D /* GBFlatButtonSwiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBFlatButtonSwiftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C7A50A1947511A0031491D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C7A50B1947511A0031491D /* GBFlatButtonSwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBFlatButtonSwiftExampleTests.swift; sourceTree = "<group>"; };
+		15C7A516194751470031491D /* GBFlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GBFlatButton.swift; path = ../../../Classes/swift/GBFlatButton.swift; sourceTree = "<group>"; };
+		15C7A518194751740031491D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15C7A519194751740031491D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15C7A4F51947511A0031491D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C7A5021947511A0031491D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C7A4EF1947511A0031491D = {
+			isa = PBXGroup;
+			children = (
+				15C7A4FA1947511A0031491D /* GBFlatButtonSwiftExample */,
+				15C7A5081947511A0031491D /* GBFlatButtonSwiftExampleTests */,
+				15C7A4F91947511A0031491D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15C7A4F91947511A0031491D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C7A4F81947511A0031491D /* GBFlatButtonSwiftExample.app */,
+				15C7A5051947511A0031491D /* GBFlatButtonSwiftExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15C7A4FA1947511A0031491D /* GBFlatButtonSwiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				15C7A515194751230031491D /* Source */,
+				15C7A4FD1947511A0031491D /* AppDelegate.swift */,
+				15C7A4FF1947511A0031491D /* Images.xcassets */,
+				15C7A4FB1947511A0031491D /* Supporting Files */,
+				15C7A518194751740031491D /* ViewController.swift */,
+				15C7A519194751740031491D /* ViewController.xib */,
+			);
+			path = GBFlatButtonSwiftExample;
+			sourceTree = "<group>";
+		};
+		15C7A4FB1947511A0031491D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C7A4FC1947511A0031491D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15C7A5081947511A0031491D /* GBFlatButtonSwiftExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				15C7A50B1947511A0031491D /* GBFlatButtonSwiftExampleTests.swift */,
+				15C7A5091947511A0031491D /* Supporting Files */,
+			);
+			path = GBFlatButtonSwiftExampleTests;
+			sourceTree = "<group>";
+		};
+		15C7A5091947511A0031491D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C7A50A1947511A0031491D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15C7A515194751230031491D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				15C7A516194751470031491D /* GBFlatButton.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15C7A4F71947511A0031491D /* GBFlatButtonSwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C7A50F1947511A0031491D /* Build configuration list for PBXNativeTarget "GBFlatButtonSwiftExample" */;
+			buildPhases = (
+				15C7A4F41947511A0031491D /* Sources */,
+				15C7A4F51947511A0031491D /* Frameworks */,
+				15C7A4F61947511A0031491D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBFlatButtonSwiftExample;
+			productName = GBFlatButtonSwiftExample;
+			productReference = 15C7A4F81947511A0031491D /* GBFlatButtonSwiftExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15C7A5041947511A0031491D /* GBFlatButtonSwiftExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C7A5121947511A0031491D /* Build configuration list for PBXNativeTarget "GBFlatButtonSwiftExampleTests" */;
+			buildPhases = (
+				15C7A5011947511A0031491D /* Sources */,
+				15C7A5021947511A0031491D /* Frameworks */,
+				15C7A5031947511A0031491D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C7A5071947511A0031491D /* PBXTargetDependency */,
+			);
+			name = GBFlatButtonSwiftExampleTests;
+			productName = GBFlatButtonSwiftExampleTests;
+			productReference = 15C7A5051947511A0031491D /* GBFlatButtonSwiftExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15C7A4F01947511A0031491D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Gustavo Barbosa";
+				TargetAttributes = {
+					15C7A4F71947511A0031491D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					15C7A5041947511A0031491D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 15C7A4F71947511A0031491D;
+					};
+				};
+			};
+			buildConfigurationList = 15C7A4F31947511A0031491D /* Build configuration list for PBXProject "GBFlatButtonSwiftExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15C7A4EF1947511A0031491D;
+			productRefGroup = 15C7A4F91947511A0031491D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15C7A4F71947511A0031491D /* GBFlatButtonSwiftExample */,
+				15C7A5041947511A0031491D /* GBFlatButtonSwiftExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15C7A4F61947511A0031491D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C7A51B194751740031491D /* ViewController.xib in Resources */,
+				15C7A5001947511A0031491D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C7A5031947511A0031491D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C7A4F41947511A0031491D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C7A51A194751740031491D /* ViewController.swift in Sources */,
+				15C7A4FE1947511A0031491D /* AppDelegate.swift in Sources */,
+				15C7A517194751470031491D /* GBFlatButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C7A5011947511A0031491D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C7A50C1947511A0031491D /* GBFlatButtonSwiftExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15C7A5071947511A0031491D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C7A4F71947511A0031491D /* GBFlatButtonSwiftExample */;
+			targetProxy = 15C7A5061947511A0031491D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15C7A50D1947511A0031491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15C7A50E1947511A0031491D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15C7A5101947511A0031491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GBFlatButtonSwiftExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15C7A5111947511A0031491D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GBFlatButtonSwiftExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15C7A5131947511A0031491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GBFlatButtonSwiftExample.app/GBFlatButtonSwiftExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GBFlatButtonSwiftExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		15C7A5141947511A0031491D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GBFlatButtonSwiftExample.app/GBFlatButtonSwiftExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GBFlatButtonSwiftExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C7A4F31947511A0031491D /* Build configuration list for PBXProject "GBFlatButtonSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C7A50D1947511A0031491D /* Debug */,
+				15C7A50E1947511A0031491D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C7A50F1947511A0031491D /* Build configuration list for PBXNativeTarget "GBFlatButtonSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C7A5101947511A0031491D /* Debug */,
+				15C7A5111947511A0031491D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15C7A5121947511A0031491D /* Build configuration list for PBXNativeTarget "GBFlatButtonSwiftExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C7A5131947511A0031491D /* Debug */,
+				15C7A5141947511A0031491D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15C7A4F01947511A0031491D /* Project object */;
+}

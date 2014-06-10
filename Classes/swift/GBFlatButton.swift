@@ -12,6 +12,8 @@ class GBFlatButton : UIButton {
     
     let kHorizontalPadding : Float = 14.0
     
+    var buttonColor: UIColor?
+    
     init(frame: CGRect) {
         super.init(frame: frame)
         _customizeAppearance()
@@ -20,6 +22,12 @@ class GBFlatButton : UIButton {
     init(coder aDecoder: NSCoder!) {
         super.init(coder: aDecoder)
         _customizeAppearance()
+    }
+    
+    override func drawRect(rect: CGRect) {
+        self.layer.borderColor = self.tintColor.CGColor
+        self.setTitleColor(self.tintColor, forState: UIControlState.Normal)
+        self.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Selected)
     }
     
     func _customizeAppearance() {
@@ -31,14 +39,40 @@ class GBFlatButton : UIButton {
             layer.borderWidth = 1.0
         }
         
-        if layer.cornerRadius == 0.0 {
-            layer.cornerRadius = frame.height / 2.0
-        }
+        layer.borderColor = tintColor.CGColor
         
-        layer.masksToBounds = true
+        if layer.cornerRadius == 0.0 {
+            layer.cornerRadius = frame.size.height / 2.0
+        }
+
+//        layer.masksToBounds = true
     }
     
-    override func drawRect(rect: CGRect) {
-        backgroundColor = UIColor.redColor()
+    override var selected: Bool {
+        get {
+            return super.selected
+        }
+        set {
+            super.selected = newValue
+            if super.selected {
+                self.backgroundColor = self.tintColor
+            } else {
+                self.backgroundColor = UIColor.whiteColor()
+            }
+        }
+    }
+    
+    override var tintColor: UIColor! {
+        get {
+            if let bc = self.buttonColor {
+                return bc
+            } else {
+                return super.tintColor
+            }
+        }
+        set {
+            super.tintColor = newValue
+            self.buttonColor = newValue
+        }
     }
 }

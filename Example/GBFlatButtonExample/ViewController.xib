@@ -26,83 +26,83 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soT-8H-50i" customClass="GBFlatButton">
-                    <rect key="frame" x="60" y="94" width="36" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soT-8H-50i" customClass="GBFlatButton">
+                    <rect key="frame" x="59" y="94" width="30" height="40"/>
                     <color key="tintColor" red="0.80784313730000001" green="0.26274509800000001" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Pink"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avi-bf-EFg" customClass="GBFlatButton">
-                    <rect key="frame" x="52" y="164" width="52" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avi-bf-EFg" customClass="GBFlatButton">
+                    <rect key="frame" x="52" y="164" width="44" height="40"/>
                     <color key="tintColor" red="0.99215686270000003" green="0.7725490196" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Yellow"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nek-uE-cBf" customClass="GBFlatButton">
-                    <rect key="frame" x="48" y="234" width="60" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nek-uE-cBf" customClass="GBFlatButton">
+                    <rect key="frame" x="48" y="234" width="51" height="40"/>
                     <color key="tintColor" red="1" green="0.65490196079999996" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Orange"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1b-vP-oUY" customClass="GBFlatButton">
-                    <rect key="frame" x="54" y="294" width="49" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1b-vP-oUY" customClass="GBFlatButton">
+                    <rect key="frame" x="53" y="304" width="42" height="40"/>
                     <color key="tintColor" red="0.61960784310000006" green="0.82745098039999998" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Green"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmR-c6-Vkk" customClass="GBFlatButton">
-                    <rect key="frame" x="60" y="364" width="36" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmR-c6-Vkk" customClass="GBFlatButton">
+                    <rect key="frame" x="59" y="374" width="31" height="40"/>
                     <color key="tintColor" red="0.3921568627" green="0.76078431369999999" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Blue"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkx-mM-HRd" customClass="GBFlatButton">
-                    <rect key="frame" x="52" y="434" width="53" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkx-mM-HRd" customClass="GBFlatButton">
+                    <rect key="frame" x="52" y="444" width="45" height="40"/>
                     <color key="tintColor" red="0.48627450979999998" green="0.46274509800000002" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Purple"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGh-G7-ZaO" customClass="GBFlatButton">
-                    <rect key="frame" x="222" y="94" width="36" height="40"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="40" id="rYZ-cn-nV3"/>
-                    </constraints>
-                    <color key="tintColor" red="0.80784313730000001" green="0.26274509800000001" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="Pink"/>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIg-3O-RW4" customClass="GBFlatButton">
-                    <rect key="frame" x="214" y="164" width="52" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIg-3O-RW4" customClass="GBFlatButton">
+                    <rect key="frame" x="223" y="164" width="44" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="4RG-QO-9gp"/>
                     </constraints>
                     <color key="tintColor" red="0.99215686270000003" green="0.7725490196" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Yellow"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNV-IN-gkv" customClass="GBFlatButton">
-                    <rect key="frame" x="210" y="234" width="60" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNV-IN-gkv" customClass="GBFlatButton">
+                    <rect key="frame" x="219" y="234" width="51" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="xVt-Xb-P4W"/>
                     </constraints>
                     <color key="tintColor" red="1" green="0.65490196079999996" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Orange"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkP-yY-UNg" customClass="GBFlatButton">
-                    <rect key="frame" x="216" y="294" width="49" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkP-yY-UNg" customClass="GBFlatButton">
+                    <rect key="frame" x="224" y="304" width="42" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="57L-oT-fGr"/>
                     </constraints>
                     <color key="tintColor" red="0.61960784310000006" green="0.82745098039999998" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Green"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5T-gl-Skr" customClass="GBFlatButton">
-                    <rect key="frame" x="222" y="364" width="36" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5T-gl-Skr" customClass="GBFlatButton">
+                    <rect key="frame" x="230" y="374" width="31" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="lwu-rU-dc8"/>
                     </constraints>
                     <color key="tintColor" red="0.3921568627" green="0.76078431369999999" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Blue"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-vk-3NE" customClass="GBFlatButton">
-                    <rect key="frame" x="214" y="434" width="53" height="40"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-vk-3NE" customClass="GBFlatButton">
+                    <rect key="frame" x="223" y="444" width="45" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="5hI-9v-Aq0"/>
                     </constraints>
                     <color key="tintColor" red="0.48627450979999998" green="0.46274509800000002" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Purple"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGh-G7-ZaO" customClass="GBFlatButton">
+                    <rect key="frame" x="230" y="94" width="30" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="rYZ-cn-nV3"/>
+                    </constraints>
+                    <color key="tintColor" red="0.80784313730000001" green="0.26274509800000001" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Pink"/>
                 </button>
             </subviews>
             <constraints>
@@ -126,7 +126,7 @@
                 <constraint firstItem="soT-8H-50i" firstAttribute="top" secondItem="KGh-G7-ZaO" secondAttribute="top" id="eTT-y5-gqc"/>
                 <constraint firstItem="nek-uE-cBf" firstAttribute="top" secondItem="pNV-IN-gkv" secondAttribute="top" id="fbT-uo-Cyh"/>
                 <constraint firstItem="soT-8H-50i" firstAttribute="bottom" secondItem="KGh-G7-ZaO" secondAttribute="bottom" id="gVu-sm-win"/>
-                <constraint firstItem="e1b-vP-oUY" firstAttribute="top" secondItem="nek-uE-cBf" secondAttribute="bottom" constant="20" id="jtd-kF-4i4"/>
+                <constraint firstItem="e1b-vP-oUY" firstAttribute="top" secondItem="nek-uE-cBf" secondAttribute="bottom" constant="30" id="jtd-kF-4i4"/>
                 <constraint firstItem="nek-uE-cBf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="48" id="kRA-fr-v2m"/>
                 <constraint firstItem="p5T-gl-Skr" firstAttribute="leading" secondItem="KGh-G7-ZaO" secondAttribute="leading" id="lPm-tn-vcl"/>
                 <constraint firstItem="bIg-3O-RW4" firstAttribute="top" secondItem="KGh-G7-ZaO" secondAttribute="bottom" constant="30" id="qPB-8A-Sho"/>

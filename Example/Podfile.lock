@@ -1,0 +1,14 @@
+PODS:
+  - GBFlatButton (2.0.1)
+
+DEPENDENCIES:
+  - GBFlatButton (from `../`)
+
+EXTERNAL SOURCES:
+  GBFlatButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GBFlatButton: 86043ed1601128c58094531a0840764c1c526ad3
+
+COCOAPODS: 0.33.1
