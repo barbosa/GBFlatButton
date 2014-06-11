@@ -26,6 +26,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var blackButton = GBFlatSelectableButton(frame: CGRect(x: 0, y: 0, width: 80, height: 40))
+        blackButton.tintColor = UIColor.blackColor()
+        blackButton.setTitle("black", forState: UIControlState.Normal)
+        blackButton.center = self.view.center
+        blackButton.frame.origin.y -= 30
+        self.view.addSubview(blackButton)
+        
+        var redButton = GBFlatSelectableButton(frame: CGRect(x: 0, y: 0, width: 80, height: 40))
+        redButton.tintColor = UIColor.redColor()
+        redButton.setTitle("red", forState: UIControlState.Normal)
+        redButton.center = self.view.center
+        redButton.frame.origin.y += 30
+        self.view.addSubview(redButton)
 
         selectedPinkButton!.selected = true
         selectedYellowButton!.selected = true
