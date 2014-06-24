@@ -1,7 +1,8 @@
 # GBFlatButton
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/GBFlatButton/badge.png)](http://cocoadocs.org/docsets/GBFlatButton)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/GBFlatButton/badge.png)](http://cocoadocs.org/docsets/GBFlatButton)
+[![Version](https://img.shields.io/cocoapods/v/GBFlatButton.svg?style=flat)](http://cocoadocs.org/docsets/GBFlatButton)
+[![License](https://img.shields.io/cocoapods/l/GBFlatButton.svg?style=flat)](http://cocoadocs.org/docsets/GBFlatButton)
+[![Platform](https://img.shields.io/cocoapods/p/GBFlatButton.svg?style=flat)](http://cocoadocs.org/docsets/GBFlatButton)
 
 ## Installation
 
