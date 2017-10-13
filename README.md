@@ -1,4 +1,4 @@
-# GBFlatButton
+# [DEPRECATED] GBFlatButton
 
 [![Version](https://img.shields.io/cocoapods/v/GBFlatButton.svg?style=flat)](http://cocoadocs.org/docsets/GBFlatButton)
 [![License](https://img.shields.io/cocoapods/l/GBFlatButton.svg?style=flat)](http://cocoadocs.org/docsets/GBFlatButton)
